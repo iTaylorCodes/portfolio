@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+/* App default styles */
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 5vh;
+  font-family: Open Sans, sans-serif;
+  margin-left: 40px;
+  letter-spacing: -1px;
+}
+
+/* Logo styles */
+
+.logo {
+  width: 60px;
+  margin: 0 -15px 0 0;
+}
+
+/* Application styles */
+
+.bg-tag {
+  font-family: Dancing Script, cursive;
+  color: rgb(85, 85, 85);
+  font-size: large;
+  font-weight: 300;
+  margin-left: -20px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  user-select: none;
+}
+
+.animate-char:hover {
+  color: cyan;
+  text-shadow: -3px -2px 1px #ee1d52;
+  transition: 0.3s ease-out;
+}
+
+.special-i {
+  font-weight: 800;
+  font-size: calc(40px + 5vmin);
+  color: #ee1d52;
+  text-shadow: -3px -2px 1px cyan;
+}
