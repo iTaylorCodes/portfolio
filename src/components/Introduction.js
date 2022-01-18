@@ -56,7 +56,7 @@ const Introduction = () => {
       <p className="bg-tag">{"< / p >"}</p>
       <div className="Intro-contact-me">
         <a href="#contact">
-          <button className="Intro-contact-me-button">Contact me!</button>
+          <button className="cy-button">Contact me!</button>
         </a>
       </div>
     </div>

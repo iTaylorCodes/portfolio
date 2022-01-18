@@ -22,19 +22,6 @@
   color: lightgray;
 }
 
-.Intro-contact-me-button {
-  font-family: Open Sans, sans-serif;
-  font-size: 16px;
-  padding: 10px 50px;
-  margin: 20px 10px;
-  border-radius: 4px;
-  border: 2px solid cyan;
-  background: linear-gradient(45deg, #1d1d1d 50%, cyan 50%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: relative;
-}
-
 /* React Logo Animation */
 
 .React-logo {
@@ -58,30 +45,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-/* Button Fill Animation */
-
-.Intro-contact-me-button:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(45deg, cyan 50%, transparent 50%);
-  z-index: -1;
-}
-
-.Intro-contact-me-button,
-.Intro-contact-me-button:after {
-  background-size: 300%;
-  background-position: 100%;
-  transition: 1s;
-}
-
-.Intro-contact-me-button:hover,
-.Intro-contact-me-button:hover:after {
-  cursor: pointer;
-  background-position: 0;
 }

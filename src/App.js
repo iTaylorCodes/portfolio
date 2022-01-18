@@ -1,5 +1,6 @@
 import "./stylesheets/default-styles.css";
 import Introduction from "./components/Introduction";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </p>
         <section id="intro">
           <Introduction />
+        </section>
+        <section id="contact">
+          <Contact />
         </section>
         <p className="bg-tag" style={{ marginLeft: "-30px" }}>
           {"< / body >"}
