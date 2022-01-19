@@ -17,11 +17,15 @@
   margin-bottom: 200px;
 }
 
+.App-content section:last-child {
+  margin-bottom: 10px;
+}
+
 /* Logo styles */
 
 .logo {
-  width: 60px;
-  margin: 0 -15px 0 0;
+  width: 75px;
+  margin: 0 -15px 30px 0;
 }
 
 /* Application styles */
@@ -40,6 +44,28 @@
   font-size: large;
   font-weight: 300;
   margin-left: -20px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  user-select: none;
+}
+
+.bg-tag-body {
+  font-family: Dancing Script, cursive;
+  color: rgb(85, 85, 85);
+  font-size: large;
+  font-weight: 300;
+  margin-left: -30px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  user-select: none;
+}
+
+.bg-tag-html {
+  font-family: Dancing Script, cursive;
+  color: rgb(85, 85, 85);
+  font-size: large;
+  font-weight: 300;
+  margin-left: -40px;
   margin-top: 1px;
   margin-bottom: 1px;
   user-select: none;

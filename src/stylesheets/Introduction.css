@@ -1,3 +1,20 @@
+/* Responsive styles */
+
+@media (max-width: 780px) {
+  .Intro-header {
+    margin-left: 40px;
+  }
+  .Intro-description {
+    margin-left: 40px;
+  }
+  .Intro-contact-me {
+    margin-left: 40px;
+  }
+  .logo {
+    margin-bottom: 10px;
+  }
+}
+
 /* Component styles */
 
 .Introduction {
@@ -10,7 +27,7 @@
 
 .Intro-header h1 {
   font-size: calc(10px + 9vmin);
-  line-height: 75px;
+  line-height: 60px;
   font-family: Open Sans Condensed, sans-serif;
   margin: 0;
 }

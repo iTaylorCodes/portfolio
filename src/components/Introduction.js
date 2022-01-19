@@ -5,8 +5,8 @@ import reactLogo from "../logos/react-logo.svg";
 const Introduction = () => {
   return (
     <div className="Introduction">
+      <p className="bg-tag">{"< h1 >"}</p>
       <div className="Intro-header">
-        <p className="bg-tag">{"< h1 >"}</p>
         <h1>
           <span className="animate-char">H</span>
           <span className="animate-char">i</span>
@@ -45,8 +45,8 @@ const Introduction = () => {
           <span className="animate-char">e</span>
           <span className="animate-char">r</span>
         </h1>
-        <p className="bg-tag">{"< / h1 >"}</p>
       </div>
+      <p className="bg-tag">{"< / h1 >"}</p>
       <p className="bg-tag">{"< p >"}</p>
       <div className="Intro-description">
         <img src={reactLogo} className="React-logo" />
