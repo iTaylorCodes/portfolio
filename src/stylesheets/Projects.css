@@ -1,0 +1,18 @@
+#Project-text:hover {
+  opacity: 1;
+  transition: 0.8s;
+}
+
+#Project-text {
+  opacity: 0;
+}
+
+#Project-image {
+  width: 275px;
+  height: 250px;
+}
+
+.Project {
+  width: 275px;
+  height: 275px;
+}

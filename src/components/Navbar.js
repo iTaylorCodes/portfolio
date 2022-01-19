@@ -16,7 +16,7 @@ const Navbar = () => {
           About
         </a>
         <a href="#skills" className="nav-link section-link animate-link">
-          My Skills
+          Skills
         </a>
         <a href="#projects" className="nav-link section-link animate-link">
           Projects

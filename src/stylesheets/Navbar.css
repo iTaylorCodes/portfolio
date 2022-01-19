@@ -85,7 +85,7 @@
 
 .animate-link:hover {
   color: cyan;
-  text-shadow: -1px -1px 1px #ee1d52;
+  text-shadow: -2px -2px 1px #ee1d52;
   font-size: large;
   transition: 0.3s ease-out;
 }
