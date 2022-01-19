@@ -10,8 +10,18 @@
   .Intro-contact-me {
     margin-left: 40px;
   }
-  .logo {
-    margin-bottom: 10px;
+  .Intro-header .logo {
+    width: 70px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 550px) {
+  .Intro-header .logo {
+    width: 60px;
+    margin-bottom: 15px;
+    transition: 0.3s;
   }
 }
 
@@ -22,7 +32,7 @@
 }
 
 .Intro-header {
-  margin-top: 50px;
+  margin: 25px 0;
 }
 
 .Intro-header h1 {

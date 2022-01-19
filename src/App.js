@@ -1,4 +1,4 @@
-import "./stylesheets/default-styles.css";
+import "./stylesheets/App.css";
 import Navbar from "./components/Navbar";
 import Introduction from "./components/Introduction";
 import Contact from "./components/Contact";
