@@ -3,41 +3,38 @@
 @media (max-width: 900px) {
   #Navbar-main {
     width: 7.5rem;
-    transition: 0.8s;
   }
 }
 
 @media (max-width: 690px) {
   .bg-tag {
     margin-left: -5px;
-    transition: 0.8s;
   }
   .bg-tag-body {
     margin-left: -10px;
-    transition: 0.8s;
   }
   .bg-tag-html {
     margin-left: -15px;
-    transition: 0.8s;
   }
 }
 
 @media (max-width: 500px) {
   .bg-tag {
     margin-left: 0px;
-    transition: 0.8s;
   }
   .bg-tag-body {
     margin-left: -5px;
-    transition: 0.8s;
   }
   .bg-tag-html {
     margin-left: -10px;
-    transition: 0.8s;
   }
 }
 
 /* Navbar styles */
+
+#Navbar-main {
+  transition: 0.8s;
+}
 
 .Navbar {
   background-color: #181818;

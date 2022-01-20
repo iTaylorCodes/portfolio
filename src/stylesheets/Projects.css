@@ -1,3 +1,15 @@
+@media (max-width: 686px) {
+  .Projects-projects {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 650px) {
+  .Projects-projects {
+    margin-left: 50px;
+  }
+}
+
 #Project-text:hover {
   opacity: 1;
   transition: 0.8s;
@@ -15,4 +27,12 @@
 .Project {
   width: 275px;
   height: 275px;
+}
+
+.Projects-info {
+  font-size: large;
+}
+
+.Projects-projects {
+  transition: 0.4s;
 }

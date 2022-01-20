@@ -13,7 +13,6 @@
   .Intro-header .logo {
     width: 70px;
     margin-bottom: 20px;
-    transition: 0.3s;
   }
 }
 
@@ -21,7 +20,6 @@
   .Intro-header .logo {
     width: 60px;
     margin-bottom: 15px;
-    transition: 0.3s;
   }
 }
 
@@ -33,6 +31,10 @@
 
 .Intro-header {
   margin: 25px 0;
+}
+
+.Intro-header .logo {
+  transition: 0.3s;
 }
 
 .Intro-header h1 {
@@ -48,18 +50,18 @@
   color: lightgray;
 }
 
-/* React Logo Animation */
+/* Tech Logo Animation */
 
-.React-logo {
+.tech-logo {
   height: 3vmin;
 }
 
-.React-logo:hover {
+.tech-logo:hover {
   animation: react-logo-spin infinite 1s linear;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .React-logo {
+  .tech-logo {
     animation: react-logo-spin infinite 5s linear;
   }
 }

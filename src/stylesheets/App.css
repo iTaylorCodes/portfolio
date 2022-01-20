@@ -38,6 +38,8 @@
   color: cyan;
 }
 
+/* Background HTML Tag styles */
+
 .bg-tag {
   font-family: Dancing Script, cursive;
   color: rgb(85, 85, 85);
@@ -45,6 +47,7 @@
   font-weight: 300;
   margin-left: -20px;
   user-select: none;
+  transition: 0.3s;
 }
 
 .bg-tag-body {
@@ -56,6 +59,7 @@
   margin-top: 1px;
   margin-bottom: 1px;
   user-select: none;
+  transition: 0.4s;
 }
 
 .bg-tag-html {
@@ -67,6 +71,7 @@
   margin-top: 1px;
   margin-bottom: 1px;
   user-select: none;
+  transition: 0.5s;
 }
 
 .animate-char:hover {
@@ -136,4 +141,10 @@
     opacity: 1;
     transform: none;
   }
+}
+
+/* Controls smooth size transitions */
+
+.transition-width {
+  transition: width 1s ease-out;
 }

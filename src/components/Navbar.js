@@ -15,12 +15,13 @@ const Navbar = () => {
         <a href="#about" className="nav-link section-link animate-link">
           About
         </a>
-        <a href="#skills" className="nav-link section-link animate-link">
-          Skills
-        </a>
         <a href="#projects" className="nav-link section-link animate-link">
           Projects
         </a>
+        <a href="#skills" className="nav-link section-link animate-link">
+          Skills
+        </a>
+
         <a href="#contact" className="nav-link section-link animate-link">
           Contact
         </a>

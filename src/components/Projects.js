@@ -43,7 +43,7 @@ const Projects = () => {
       <h2 className="mb-3">My Portfolio</h2>
       <p className="bg-tag">{"< / h2 >"}</p>
       <p className="bg-tag">{"< p >"}</p>
-      <p>
+      <p className="Projects-info">
         A small gallery of some of my recent projects. Ranging from Real Estate
         and Job Board applications, to a Video Gamer Matchmaker and Social
         Network.
@@ -51,7 +51,7 @@ const Projects = () => {
       <p className="bg-tag">{"< / p >"}</p>
 
       <p className="bg-tag">{"< section >"}</p>
-      <div className="row">{projectComps}</div>
+      <div className="Projects-projects row">{projectComps}</div>
       <p className="bg-tag">{"< / section >"}</p>
     </div>
   );

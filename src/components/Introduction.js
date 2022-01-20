@@ -1,6 +1,7 @@
 import "../stylesheets/Introduction.css";
 import iTLogo from "../logos/iT-logo.png";
 import reactLogo from "../logos/react-logo.svg";
+import nodeLogo from "../logos/nodejs-logo.svg";
 
 const Introduction = () => {
   return (
@@ -49,9 +50,9 @@ const Introduction = () => {
       <p className="bg-tag">{"< / h1 >"}</p>
       <p className="bg-tag">{"< p >"}</p>
       <div className="Intro-description">
-        <img src={reactLogo} className="React-logo" />
-        Front End / React Developer
-        <img src={reactLogo} className="React-logo" />
+        <img src={nodeLogo} className="tech-logo me-1" />
+        Full-Stack Node / React Developer
+        <img src={reactLogo} className="tech-logo" />
       </div>
       <p className="bg-tag">{"< / p >"}</p>
       <div className="Intro-contact-me">

@@ -19,11 +19,11 @@ function App() {
           <section id="intro">
             <Introduction />
           </section>
-          <section id="projects">
-            <Projects />
-          </section>
           <section id="about">
             <About />
+          </section>
+          <section id="projects">
+            <Projects />
           </section>
           <section id="skills">
             <Skills />
