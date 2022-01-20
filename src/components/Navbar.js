@@ -9,7 +9,7 @@ const Navbar = () => {
           <img src={iTLogo} className="logo mt-4 mb-2" />
           <p className="text-white fw-bold">Ian</p>
         </a>
-        <p className="Navbar-intro-description">React Developer</p>
+        <p className="Navbar-intro-description">Software Developer</p>
       </div>
       <nav className="Navbar-list">
         <a href="#about" className="nav-link section-link animate-link">

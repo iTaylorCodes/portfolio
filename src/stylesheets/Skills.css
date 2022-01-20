@@ -1,0 +1,42 @@
+.Skills-graph {
+  line-height: 30px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.secondary-skill span {
+  transition: 0.8s;
+  margin: 0 1em;
+  font-size: small;
+  font-weight: 500;
+}
+
+/* Skills Graph Section Underlines */
+
+#front-end {
+  background-image: linear-gradient(to right, cyan 95%, rgb(85, 85, 85) 5%);
+  background-position: 0 1.7em;
+  background-repeat: repeat-x;
+  background-size: 100% 2px;
+}
+
+#back-end {
+  background-image: linear-gradient(to right, #ff2253 85%, rgb(85, 85, 85) 15%);
+  background-position: 0 1.7em;
+  background-repeat: repeat-x;
+  background-size: 100% 2px;
+}
+
+#react {
+  background-image: linear-gradient(to right, #225df3 75%, rgb(85, 85, 85) 25%);
+  background-position: 0 1.7em;
+  background-repeat: repeat-x;
+  background-size: 100% 2px;
+}
+
+#sql {
+  background-image: linear-gradient(to right, magenta 65%, rgb(85, 85, 85) 35%);
+  background-position: 0 1.7em;
+  background-repeat: repeat-x;
+  background-size: 100% 2px;
+}

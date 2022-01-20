@@ -49,9 +49,13 @@ const Contact = () => {
           <p className="bg-tag">{"< p >"}</p>
 
           <p className="Contact-description-about">
-            I'm interested in front end or full-stack based roles. Remote
+            I'm currently interested in front-end or full-stack roles. Remote
             positions preferred, however I am open to opportunities in the Los
             Angeles area as well.
+          </p>
+          <p className="Contact-description-about">
+            If you'd like to connect, feel free to shoot me an email at
+            iTaylorCodes@gmail.com or use the form below.
           </p>
 
           <p className="bg-tag">{"< / p >"}</p>
