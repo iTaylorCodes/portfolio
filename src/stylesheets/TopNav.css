@@ -1,0 +1,45 @@
+.TopNav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #181818;
+}
+
+.TopNav-logo img {
+  margin-right: -9px;
+}
+
+.TopNav-section-link {
+  color: #909096;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+.TopNav-social-link {
+  color: #909096;
+  width: 17px;
+  margin-left: 10px;
+}
+
+.TopNav-social-link:hover {
+  color: cyan;
+}
+
+.TopNav-section-link:hover {
+  color: cyan;
+}
+
+/* Small screen styles */
+
+@media (max-width: 500px) {
+  .TopNav-section-link {
+    font-size: small;
+    margin: 0 2px;
+  }
+  .TopNav-social-link {
+    width: 12px;
+    margin-left: 8px;
+  }
+}

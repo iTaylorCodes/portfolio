@@ -5,3 +5,13 @@
 .About-bio {
   font-size: larger;
 }
+
+@media (max-width: 500px) {
+  .radio-labels {
+    margin-left: 3px;
+  }
+  .About {
+    margin-left: -50px;
+    margin-right: -55px;
+  }
+}

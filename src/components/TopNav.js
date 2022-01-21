@@ -1,30 +1,34 @@
-import "../stylesheets/Navbar.css";
+import "../stylesheets/TopNav.css";
 import iTLogo from "../logos/iT-logo.png";
 
-const Navbar = () => {
+/* Navbar to display on mobile devices */
+const TopNav = () => {
   return (
-    <div id="Navbar-main" className="Navbar row" role="navigation">
-      <div className="Navbar-intro">
-        <a href="#" className="Navbar-logo">
-          <img src={iTLogo} className="logo mt-4 mb-2" />
-          <p className="text-white fw-bold">Ian</p>
+    <nav className="TopNav navbar navbar-dark">
+      <div className="container-fluid">
+        <a className="navbar-brand TopNav-logo" href="#">
+          <img
+            src={iTLogo}
+            alt=""
+            width="30"
+            height="24"
+            className="d-inline-block align-text-top"
+          />
+          <span className="navbar-brand h1">aylor</span>
         </a>
-        <p className="Navbar-intro-description">Software Developer</p>
-      </div>
-      <nav className="Navbar-list">
-        <a href="#about" className="nav-link section-link animate-link">
-          About
-        </a>
-        <a href="#projects" className="nav-link section-link animate-link">
-          Projects
-        </a>
-        <a href="#skills" className="nav-link section-link animate-link">
-          Skills
-        </a>
-        <a href="#contact" className="nav-link section-link animate-link">
-          Contact
-        </a>
-        <div className="Navbar-social">
+        <div className="TopNav-links">
+          <a href="#about" className="TopNav-section-link">
+            About
+          </a>
+          <a href="#projects" className="TopNav-section-link">
+            Projects
+          </a>
+          <a href="#skills" className="TopNav-section-link">
+            Skills
+          </a>
+          <a href="#contact" className="TopNav-section-link">
+            Contact
+          </a>
           <a href="https://linkedin.com/in/ianmichaeltaylor" target="_blank">
             <svg
               aria-hidden="true"
@@ -34,7 +38,7 @@ const Navbar = () => {
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
-              className="svg-inline--fa fa-linkedin-in fa-w-14 fa-5x animate-link"
+              className="svg-inline--fa fa-linkedin-in fa-w-14 fa-5x TopNav-social-link"
             >
               <path
                 fill="currentColor"
@@ -52,7 +56,7 @@ const Navbar = () => {
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
-              className="svg-inline--fa fa-github fa-w-16 fa-3x animate-link"
+              className="svg-inline--fa fa-github fa-w-16 fa-3x TopNav-social-link"
             >
               <path
                 fill="currentColor"
@@ -62,9 +66,9 @@ const Navbar = () => {
             </svg>
           </a>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 
-export default Navbar;
+export default TopNav;

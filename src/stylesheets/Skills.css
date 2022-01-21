@@ -4,6 +4,10 @@
   font-weight: bold;
 }
 
+.secondary-skill {
+  margin-left: 1.6em;
+}
+
 .secondary-skill span {
   transition: 0.8s;
   margin: 0 1em;
@@ -39,4 +43,48 @@
   background-position: 0 1.7em;
   background-repeat: repeat-x;
   background-size: 100% 2px;
+}
+
+/* Small screen styles */
+
+@media (max-width: 500px) {
+  .Skills-graph {
+    line-height: 30px;
+    font-size: small;
+    font-weight: 700;
+  }
+  .secondary-skill span {
+    margin: 0 0.3em;
+    font-size: smaller;
+    font-weight: 400;
+  }
+  .secondary-skill {
+    margin-left: 0.6em;
+  }
+  .Skills {
+    margin-left: -40px;
+    margin-right: -47px;
+  }
+  .Skills h2 {
+    margin-right: -55px;
+  }
+  .Skills-info {
+    margin-right: -35px;
+  }
+  .Skills-graph {
+    margin-right: -35px;
+  }
+
+  #front-end {
+    background-position: 0 2em;
+  }
+  #back-end {
+    background-position: 0 2em;
+  }
+  #react {
+    background-position: 0 2em;
+  }
+  #sql {
+    background-position: 0 2em;
+  }
 }

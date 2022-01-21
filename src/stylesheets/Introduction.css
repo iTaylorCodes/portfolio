@@ -23,6 +23,21 @@
   }
 }
 
+/* Small screen styles */
+
+@media (max-width: 500px) {
+  .Intro-description {
+    margin-left: 3px;
+  }
+  .Introduction {
+    margin-left: -40px;
+    margin-right: -48px;
+  }
+  .tech-logo {
+    height: 6vmin;
+  }
+}
+
 /* Component styles */
 
 .Introduction {
@@ -53,7 +68,7 @@
 /* Tech Logo Animation */
 
 .tech-logo {
-  height: 3vmin;
+  height: 6vmin;
 }
 
 .tech-logo:hover {

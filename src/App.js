@@ -1,5 +1,6 @@
 import "./stylesheets/App.css";
 import Navbar from "./components/Navbar";
+import TopNav from "./components/TopNav";
 import Introduction from "./components/Introduction";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -9,6 +10,9 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App row">
+      <div id="App-top-nav">
+        <TopNav />
+      </div>
       <div className="App-navbar col-2">
         <Navbar />
       </div>

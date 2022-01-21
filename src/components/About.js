@@ -74,7 +74,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row radio-labels">
             <div className="col-4">
               <label htmlFor="bio-1" className="form-check-label">
                 Shortest

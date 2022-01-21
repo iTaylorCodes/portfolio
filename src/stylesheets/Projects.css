@@ -10,6 +10,16 @@
   }
 }
 
+@media (max-width: 500px) {
+  .Projects-projects {
+    margin-left: 10px;
+  }
+  .Projects {
+    margin-left: -40px;
+    margin-right: -48px;
+  }
+}
+
 #Project-text:hover {
   opacity: 1;
   transition: 0.8s;

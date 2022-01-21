@@ -13,6 +13,10 @@
   letter-spacing: -1px;
 }
 
+.App-content {
+  transition: 0.3s;
+}
+
 .App-content section {
   margin-bottom: 200px;
 }
@@ -147,4 +151,30 @@
 
 .transition-width {
   transition: width 0.6s ease-out;
+}
+
+/* Small screen styles */
+
+@media (max-width: 500px) {
+  .App-navbar {
+    display: none;
+  }
+  .App-content {
+    margin-top: 30px;
+  }
+  .cy-button {
+    margin-left: -35px;
+  }
+  .bg-tag-html {
+    display: none;
+  }
+  .bg-tag-body {
+    display: none;
+  }
+}
+
+@media (min-width: 501px) {
+  #App-top-nav {
+    display: none;
+  }
 }

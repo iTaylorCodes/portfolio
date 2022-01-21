@@ -32,7 +32,6 @@ const Skills = () => {
               <span>JavaScript</span>
               <span>Bootstrap</span>
             </span>
-            <div></div>
           </p>
           <p className="primary-skill" id="back-end">
             Back-end

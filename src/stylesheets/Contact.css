@@ -36,3 +36,22 @@
 .Contact-button-div {
   margin: -10px;
 }
+
+/* Small screen styles */
+
+@media (max-width: 500px) {
+  .Contact-form {
+    margin-left: -40px;
+    margin-right: -48px;
+  }
+  .Contact-header {
+    margin-left: -40px;
+    margin-right: -48px;
+  }
+  .Contact-button-div {
+    margin-left: 45px;
+  }
+  .Contact-description {
+    margin: 0 -40px;
+  }
+}
