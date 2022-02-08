@@ -17,7 +17,7 @@ const Projects = () => {
       title: "Neighborhoodz",
       logo: neighborhoodzLogo,
       description: "Find your dream home.",
-      url: "",
+      url: "https://itaylorcodes-neighborhoodz.surge.sh/",
     },
     {
       title: "Jobly",
