@@ -43,8 +43,4 @@ All copy lives in typed data files under `src/content/`, so updating the site do
 
 ## Deploying
 
-`npm run build` outputs a static site to `dist/` that any static host can serve. For example, with surge:
-
-```bash
-npx surge dist itaylorcodes.surge.sh
-```
+The site is hosted on GitHub Pages at https://itaylorcodes.com. The workflow in `.github/workflows/deploy.yml` lints, tests, and builds every pull request, and deploys to Pages on every push to `main`.
