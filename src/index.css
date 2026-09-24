@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "tailwindcss";
+
+/*
+ * Color tokens. Dark is the default look; light applies when the OS prefers it
+ * (unless the visitor picked dark) or when the visitor explicitly picks light.
+ * The two accents come from the iT logo: a hot red and a cyan.
+ */
+:root {
+  --bg: #0b0c10;
+  --surface: #13151b;
+  --surface-2: #1a1d25;
+  --line: #262a33;
+  --fg: #ecedf0;
+  --muted: #9ba1ad;
+  --faint: #6b717d;
+  --accent: #ff3d6b;
+  --accent-2: #2ee6e6;
+  --ok: #3ddc97;
+  color-scheme: dark;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #f7f7f5;
+    --surface: #ffffff;
+    --surface-2: #efefec;
+    --line: #dddcd7;
+    --fg: #121419;
+    --muted: #535966;
+    --faint: #7c818c;
+    --accent: #d4103f;
+    --accent-2: #007c85;
+    --ok: #0f8a57;
+    color-scheme: light;
+  }
+}
+
+:root[data-theme="light"] {
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --surface-2: #efefec;
+  --line: #dddcd7;
+  --fg: #121419;
+  --muted: #535966;
+  --faint: #7c818c;
+  --accent: #d4103f;
+  --accent-2: #007c85;
+  --ok: #0f8a57;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-ok: var(--ok);
+}
+
+@theme {
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--accent) 35%, transparent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent-2);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
 }
