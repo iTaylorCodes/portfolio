@@ -1,5 +1,5 @@
 import { profile } from "../content/profile";
-import { ArrowUpRight, MapPin, Mail } from "./icons";
+import { ArrowUpRight, Download, MapPin, Mail } from "./icons";
 
 export function Hero() {
   return (
@@ -37,6 +37,14 @@ export function Hero() {
         >
           See my work
           <ArrowUpRight className="size-4 rotate-90" />
+        </a>
+        <a
+          href={profile.resume}
+          download
+          className="inline-flex items-center gap-2 rounded-lg border border-line px-5 py-3 text-sm font-medium transition-colors hover:border-faint hover:bg-surface"
+        >
+          <Download className="size-4" />
+          Résumé
         </a>
         <span className="ml-1 inline-flex items-center gap-1.5 text-sm text-faint">
           <MapPin className="size-4" />

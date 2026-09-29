@@ -10,6 +10,8 @@ export type Profile = {
   location: string;
   openToWork: boolean;
   email: string;
+  /** Public résumé PDF in /public (no phone number). */
+  resume: string;
   headline: string;
   intro: string;
   about: string[];

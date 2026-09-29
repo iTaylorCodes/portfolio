@@ -30,6 +30,16 @@ describe("App", () => {
     }
   });
 
+  it("links to the résumé PDF as a download", () => {
+    render(<App />);
+    const links = screen.getAllByRole("link", { name: /résumé/i });
+    expect(links.length).toBeGreaterThan(0);
+    for (const link of links) {
+      expect(link).toHaveAttribute("href", profile.resume);
+      expect(link).toHaveAttribute("download");
+    }
+  });
+
   it("toggles the color theme", async () => {
     render(<App />);
     await userEvent.click(screen.getByRole("button", { name: /switch to dark theme/i }));

@@ -6,6 +6,7 @@ export const profile: Profile = {
   location: "Los Angeles · Remote",
   openToWork: true,
   email: "iTaylorCodes@gmail.com",
+  resume: "/Ian-Taylor-Resume.pdf",
   headline: "I build the tools players open in a second tab.",
   intro:
     "Software engineer at Zam, where I've spent the last few years building game tools for Wowhead with React and TypeScript. Before that, I rebuilt Fanbyte from WordPress into a Next.js and Strapi platform.",

@@ -1,5 +1,5 @@
 import { profile } from "../content/profile";
-import { ArrowUpRight, GitHub, LinkedIn, Mail } from "./icons";
+import { ArrowUpRight, Download, GitHub, LinkedIn, Mail } from "./icons";
 
 const socialIcons = { GitHub, LinkedIn } as const;
 
@@ -28,6 +28,17 @@ export function Contact() {
             <span className="font-medium">{profile.email}</span>
           </span>
           <ArrowUpRight className="size-4 text-faint group-hover:text-fg" />
+        </a>
+        <a
+          href={profile.resume}
+          download
+          className="group inline-flex items-center justify-between gap-6 rounded-xl border border-line bg-surface px-5 py-4 transition-colors hover:border-faint sm:justify-start"
+        >
+          <span className="flex items-center gap-3">
+            <Download className="size-5 text-muted" />
+            <span className="font-medium">Résumé (PDF)</span>
+          </span>
+          <ArrowUpRight className="size-4 rotate-90 text-faint group-hover:text-fg" />
         </a>
         {profile.socials.map((social) => {
           const Icon = socialIcons[social.label as keyof typeof socialIcons];

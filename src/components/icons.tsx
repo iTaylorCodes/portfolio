@@ -24,6 +24,12 @@ export const Mail = (props: IconProps) => (
   </svg>
 );
 
+export const Download = (props: IconProps) => (
+  <svg viewBox="0 0 24 24" {...stroke} {...props}>
+    <path d="M12 4v11M7 10l5 5 5-5M5 20h14" />
+  </svg>
+);
+
 export const Sun = (props: IconProps) => (
   <svg viewBox="0 0 24 24" {...stroke} {...props}>
     <circle cx="12" cy="12" r="4" />

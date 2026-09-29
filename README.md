@@ -43,6 +43,8 @@ All copy lives in typed data files under `src/content/`, so updating the site do
 - `work.ts`: projects and the Wowhead tools list (omit `href` for anything that isn't live)
 - `experience.ts`: roles and skills
 
+The résumé linked from the site is `public/Ian-Taylor-Resume.pdf`. It's a copy without a phone number, since this repo and site are public. To update it, edit the résumé source kept outside this repo, run its `build-resume.sh`, and copy `Ian-Taylor-Resume-public.pdf` over `public/Ian-Taylor-Resume.pdf`.
+
 ## Deploying
 
 The site is hosted on GitHub Pages at https://itaylorcodes.com and deploys automatically:
